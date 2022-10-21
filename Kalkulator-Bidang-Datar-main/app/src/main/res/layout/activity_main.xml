@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:backgroundTint="#0B0B0B"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="DAFTAR BANGUN DATAR"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/persegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="PERSEGI"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <Button
+        android:id="@+id/segitiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEGITIGA"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <Button
+        android:id="@+id/lingkaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LINGKARAN"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+</LinearLayout>
